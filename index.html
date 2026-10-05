@@ -1,0 +1,80 @@
+<<<<<<< HEAD:Lec14/index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web To lead Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Create Lead</h1>
+    <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00DdL00000iMnOv"
+     method="POST"
+     onsubmit="beforesubmit()"
+     >
+
+    <input type=hidden name="oid" value="00DdL00000iMnOv" />
+    <input type=hidden name="retURL" value="https://pratima141.github.io/LWC-Playlist/thanks.html" />
+
+    <input type=hidden name="Lead_Date__c" class="outputdate" />
+
+    <label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" required="true"/><br>
+
+    <label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" required="true"/><br>
+
+    <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" required="true"/><br>
+
+    <label for="lead_date">Lead Date</label>
+    <input type="date" required="true" class="inputdate"/>
+    <!-- Lead Date:<span class="dateInput dateOnlyInput"><input  id="00NdL00002eHuCD" name="00NdL00002eHuCD" size="12" type="text" /></span><br> -->
+
+    <input type="hidden"  id="lead_source" name="lead_source" value="Web" /><br>
+
+    <input type="submit" name="submit" class="submit">
+
+    </form>
+
+</body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web To lead Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Create Lead</h1>
+    <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00DdL00000iMnOv"
+     method="POST"
+     onsubmit="beforesubmit()"
+     >
+
+    <input type=hidden name="oid" value="00DdL00000iMnOv" />
+    <input type=hidden name="retURL" value="" />
+
+    <input type=hidden name="Lead_Date__c" class="outputdate" />
+
+    <label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" required="true"/><br>
+
+    <label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" required="true"/><br>
+
+    <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" required="true"/><br>
+
+    <label for="lead_date">Lead Date</label>
+    <input type="date" required="true" class="inputdate"/>
+    <!-- Lead Date:<span class="dateInput dateOnlyInput"><input  id="00NdL00002eHuCD" name="00NdL00002eHuCD" size="12" type="text" /></span><br> -->
+
+    <input type="hidden"  id="lead_source" name="lead_source" value="Web" /><br>
+
+    <input type="submit" name="submit" class="submit">
+
+    </form>
+
+</body>
+>>>>>>> d227c829469eba0a86b4ba3b72fb26147880ec6a:index.html
+</html>
