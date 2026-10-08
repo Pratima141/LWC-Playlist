@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web To lead Form</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://www.google.com/recaptcha/api.js"></script>
     <script src="script.js"></script>
 </head>
 <body>
@@ -14,6 +15,7 @@
      onsubmit="beforesubmit()"
      >
 
+    <input type=hidden name='captcha_settings' value='{"keyname":"WebToLeadBootCamp","fallback":"true","orgId":"00DdL00000iMnOv","ts":""}'> 
     <input type=hidden name="oid" value="00DdL00000iMnOv" />
     <input type=hidden name="retURL" value="https://pratima141.github.io/LWC-Playlist/thanks.html" />
 
@@ -32,6 +34,8 @@
     <input type="hidden"  id="lead_source" name="lead_source" value="Web" /><br>
 
     <input type="submit" name="submit" class="submit">
+
+    <div class="g-recaptcha" data-sitekey="6Le1seQtAAAAAN5jh5LFwbHWEKjVRwrfUBal0F6R"></div><br>
 
     </form>
 
